@@ -1,0 +1,395 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<!-- TEMA DE LA PRESENTACION -->
+	<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- PLUGINS PARA COPIAR FRAGMENTOS DE CODIGO -->
+	<link rel="stylesheet" href="plugin/copycode/copycode.css">
+	<!-- MARCADO Y RESALTADO DE CODIGO -->
+	<link rel="stylesheet" href="plugin/highlight/arta.css" id="highlight-theme">
+	<!-- CUSTOM CSS -->
+	<link rel="stylesheet" href="css/custom/caratula.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<!-- CARATULA -->
+			<section>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/vue.png" alt="vue">
+					</div>
+					<div class="col-md-6">
+						<h1>¿Qué es <a href="https://vuejs.org/" target="_blank" class="vue">Vue.js</a>?</h1>
+						<p class="caratula-subtitulo">Empezando en el mundo front-end <span>💻</span> </p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="text-center name">Cristian Fernando Villca Gutierrez | <span
+								class="tesista">Tesista</span></p>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<section>
+					<div class="row">
+						<div class="col-md-6 padre">
+							<p class="text-center">Back-end Vs Front-end</p>
+						</div>
+						<div class="col-md-6">
+							<img src="img/back-front-1.jpg" width="450">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="row">
+						<div class="col-md-6">
+							<img src="img/back-front-2.png" width="550">
+						</div>
+						<div class="col-md-6 padre">
+							<p class="text-center">Back-end Vs Front-end</p>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<section>
+				<h2>Desarrollo Web con JavaScript</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<p>Back-end</p>
+						<img src="img/node.png" width="300">
+						<img src="img/Deno.svg" width="200" class="d-inline-block">
+					</div>
+					<div class="col-md-6">
+						<p>Front-end</p>
+						<img src="img/angular.png" width="200">
+						<img src="img/react.png" width="200">
+						<img src="img/vue.png" width="180">
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div>
+					<img src="img/que-es-vue.png" width="650">
+				</div>
+			</section>
+
+			<section id="framework-progresivo">
+				<img src="img/vue.png" width="400">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="mt-4"><a href="#/framework">Framework</a> <a href="#/progresivo">Progresivo</a> Open Source para
+							interfaces de usuario.</p>
+					</div>
+				</div>
+			</section>
+
+
+			<section id="framework" data-transition="slide">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Framework</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 edificio">
+						<img src="img/edificio.jpg" height="450">
+					</div>
+					<div class="col-md-6 paquete-imagenes">
+						<div class="r-stack">
+							<img class="fragment fade-out" data-fragment-index="0" src="img/casa.jpg">
+							<img class="fragment current-visible" data-fragment-index="0" src="img/oficina.jpg">
+							<img class="fragment" src="img/dentista.jpg">
+							<img class="fragment" src="img/tienda.jpg">
+						</div>
+					</div>
+				</div>
+				<a href="#/framework-progresivo" class="volver-framework-progresivo">Volver</a>
+			</section>
+
+			<section id="progresivo" data-background-transition>
+				<div class="row">
+					<div class="col-md-12">
+						<p>Progresivo</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<iframe src="https://giphy.com/embed/teNIxdOwyPC3C" width="480" height="451" frameBorder="0"
+							class="giphy-embed" allowFullScreen></iframe>
+						<a href="https://giphy.com/gifs/walking-chicken-teNIxdOwyPC3C"></a>
+					</div>
+					<div class="col-md-6">
+						<iframe src="https://giphy.com/embed/CaJT0zEGWHDoc" width="480" height="451" frameBorder="0"
+							class="giphy-embed" allowFullScreen></iframe>
+						<a href="https://giphy.com/gifs/rooster-CaJT0zEGWHDoc"></a>
+					</div>
+
+				</div>
+				<!-- <a href="#/framework-progresivo" class="volver-framework-progresivo">Volver</a> -->
+			</section>
+
+			<section>
+				<div>
+					<img src="img/sintaxis-vue.png" width="650">
+				</div>
+			</section>
+
+			<section>
+				<h2>¿Qué necesito saber?</h2>
+				<p>Volviendo a las bases</p>
+				<div>
+					<img src="img/test.png" width="700">
+				</div>
+			</section>
+
+			<section>
+				<section data-auto-animate>
+					<p>Hola mundo con Vue.js</p>
+					<pre data-id="code"><code data-line-numbers="5|7|12|8|1-3|9-11" class="hljs" data-trim>
+
+						&lt;div id="main"&gt;
+						  &lt;p&gt;{{saludo}}&lt;/p&gt;
+						&lt;/div&gt;
+						<!--CDN VUE-->
+						<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+						<script>
+						const vue = new Vue({
+							el: '#main', //element
+							data: { //capa de datos
+							   saludo: 'Hola mundo! desde mi casa!'
+				 		}
+						});
+						</script>
+					</code></pre>
+					<a href="https://codepen.io/dux-soft/pen/KKVgYPe?editors=1000" target="_blank" style="font-size: 30px;">Ver en codepen</a>	
+				</section>
+			</section>
+
+		
+			<section>
+				<h3>Reactividad</h3>
+				<div class="row">
+					<div class="col-md-6">
+						<a href="https://codepen.io/dux-soft/pen/mdVrgXB?editors=1000" target="_blank"><img src="img/js.png" width="300"></a>
+					</div>
+					<div class="col-md-6">
+						<a href="https://codepen.io/dux-soft/pen/oNbzOLx?editors=1000" target="_blank"><img src="img/vue.png" width="300"></a>
+					</div>
+				</div>
+			</section>
+
+			
+			<section>
+				<section data-auto-animate>
+					<p>Renderización de listas</p>
+					<pre data-id="code"><code data-line-numbers="1-8|12|14-20|22-27|" class="hljs" data-trim>
+
+						&lt;div id="main"&gt;
+						&lt;ul&gt;
+						  &lt;li v-for="persona in personas"&gt; <!--directiva v-for-->
+						    {{persona}}
+						  &lt;/li&gt;
+						&lt;/ul&gt;
+						<!--directiva v-model | diectiva v-on (@)-->
+						<input type="text" v-model="name" v-on:keyup.enter="addName()"> 
+						&lt;/div&gt;
+
+						<!--CDN VUE-->
+						<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+						<script>
+							new Vue({
+							  el: "#main", //element
+							  data:{ //capa de datos
+							  	//declaramos un arreglo de personas
+								personas:["Carlos","Andrea","Roberto"], 
+								name: " ",
+							  },
+							  
+							 methods: { 
+							   addName(){ 
+								 //agrgamos un  elemento al final del arreglo
+								 this.personas.push(this.name); 
+								 this.name=""; 
+							   }
+							 },
+							});
+						</script>
+					</code></pre>
+					<a href="https://codepen.io/dux-soft/pen/gOPwNwp?editors=1000" target="_blank" style="font-size: 30px;"> <i class="fa fa-play" aria-hidden="true"></i> Run </a>	
+				</section>
+			</section>
+
+			<section>
+				<div>
+					<h3>Progresividad | Escalabilidad </h3>
+					<img src="img/core-vue.jpg" alt="">
+				</div>
+			</section>
+
+			<section>
+				<p>Ahora un ejemplo un poco más completo</p>
+				<div>
+					<img src="img/ejemplo-completo.png" width="1500">
+					<p>Repositorio del proyecto</p>
+					<a href="https://github.com/crisdux/ejemplo-basico-vue" target="_blank">https://github.com/crisdux/ejemplo-basico-vue</a>
+					<p>Deploy</p>
+					<a href="https://crisdux.github.io/ejemplo-basico-vue/" target="_blank">https://crisdux.github.io/ejemplo-basico-vue/</a>
+				</div>
+			</section>
+
+			<section data-background-color="rgb(66, 184, 131)">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="conclusiones">
+							<h3 class="text-white color-final">Conclusiones</h3>
+						</div>
+					</div>
+					<div class="col-md-6">
+							<ul class="text-white">
+								<li class="fragment highlight-current-red">Progresivo y Escalable</li>
+								<li class="fragment highlight-current-red">Open Source</li>
+								<li class="fragment highlight-current-red">Curva de aprendizaje baja (HTML, CSS y JS)</li>
+								<li class="fragment highlight-current-red">Liviano</li>
+								<li class="fragment highlight-current-red">Reactivo (data-binding)</li>
+								<li class="fragment highlight-current-red">Uso de directivas</li>
+								<li class="fragment highlight-current-red d-none"></li>
+							</ul>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>Recomendaciones</h2>
+				<ul>
+					<li>Documentación oficial: <a href="https://vuejs.org/">https://vuejs.org/</a></li>
+					<li>Curso gratuito para principiantes: <a href="https://www.udemy.com/course/vue-js-2-para-principiantes/">https://www.udemy.com/course/vue-js-2-para-principiantes/</a></li>
+					<li>Vue.js | El documental <a href="https://www.youtube.com/watch?v=OrxmtDw4pVI">https://www.youtube.com/watch?v=OrxmtDw4pVI</a></li>
+				</ul>
+			</section>
+
+			<section>
+				<section>
+					<h2>¿Preguntas?</h2>
+					<p>Mis redes...</p>
+					<p> <i class="fab fa-whatsapp"></i> <span class="font-weight-bold">69714078</span> </p> 
+					<p><i class="fab fa-dev"></i> <a href="https://dev.to/crisfer4217">https://dev.to/crisfer4217</a> </p>
+					<p><i class="fab fa-twitter"></i> <a href="https://twitter.com/crisfer4217">https://twitter.com/crisfer4217</a> </p>
+					<p><i class="fab fa-github"></i> <a href="https://github.com/crisdux">https://github.com/crisdux</a></p>
+				</section>
+				<section>
+					<h1>¡Gracias!</h1>
+					<iframe src="https://giphy.com/embed/11JTxkrmq4bGE0" width="480" height="369" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-computer-working-11JTxkrmq4bGE0"></a></p>
+				</section>
+			</section>
+
+			<section>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/vue.png" alt="vue">
+					</div>
+					<div class="col-md-6">
+						<h1>¿Qué es <a href="https://vuejs.org/" target="_blank" class="vue">Vue.js</a>?</h1>
+						<p class="caratula-subtitulo">Empezando en el mundo front-end <span>💻</span> </p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="text-center name">Cristian Fernando Villca Gutierrez | <span
+								class="tesista">Tesista</span></p>
+					</div>
+				</div>
+			</section>
+
+			
+
+
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" </script></script>
+	<script src="plugin/copycode/copycode.js"></script>
+	<script src="plugin/mouse-pointer/mouse-pointer.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+
+	<!-- BOOTSTRAP JS  -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+
+	<!-- CONSIFURACIONES DE PLUGINGS Y EXTENCIONES -->
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			backgroundTransition: 'slide',
+			hash: true,
+			slideNumber: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			copycode: {
+				copy: "Copy",
+				copied: "Copied!",
+				timeout: 1000,
+				copybg: "orange",
+				copiedbg: "green",
+				copycolor: "black",
+				copiedcolor: "white"
+			},
+
+			notes_pointer: {
+				pointer: {
+					size: 5,  // in pixels (scaled like the rest of reveal.js)
+					color: 'rgba(255, 0, 0, 0.8)',  // something valid for css background-color
+					key: 'A'
+				},
+				notes: {
+					key: 'S'
+				}
+			},
+
+			// dependencies: [
+			// 	// ...
+
+			// 	{ src: 'node_modules/reveal.js-notes-pointer/notes-pointer.js', async: True }
+			// 	// async is optional
+			// ],
+
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes, CopyCode],
+
+			dependencies: [
+				{ src: 'plugin/mouse-pointer/mouse-pointer.js', async: true },
+			]
+		});
+
+	</script>
+</body>
+
+</html>
